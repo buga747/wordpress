@@ -1,0 +1,20 @@
+.btn {
+    font-family: $secondary-font;
+    text-align: center;
+    border: 0;
+    min-height: 72px;
+    cursor: pointer;
+
+    font-size: 21px;
+    line-height: 1.14;
+    padding: 24px 50px;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+}

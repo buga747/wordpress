@@ -1,0 +1,52 @@
+.education {
+    padding-top: 86px;
+    padding-bottom: 69px;
+
+    background-image: url(../images/bg/second_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section__title--light {
+    margin-bottom: 40px;
+}
+
+.education-list {
+    display: flex;
+    gap: 10px;
+}
+
+.education__item {
+    width: 220px;
+}
+
+.education-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.education__icon-wrapper {
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+
+    background-color: #B4E2FF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education__title {
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.18;
+    color: $grey-text-color;
+}

@@ -1,0 +1,38 @@
+.about {
+    padding-top: 85px;
+    padding-bottom: 75px;
+    background-color: $section-background-color;
+    text-align: center;
+}
+
+
+
+.about__text {
+    font-size: 23px;
+    line-height: 1;
+    text-align: center;
+    color: $primary-text-color;
+    margin-bottom: 45px;
+}
+
+.about-list {
+    display: flex;
+    gap: 48px;
+}
+
+.about-item {
+    width: 342px;
+
+    &__img {
+        margin-bottom: 25px;
+    }
+
+    &__txt {
+
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 1.4;
+        text-align: center;
+        color: $primary-text-color;
+    }
+}

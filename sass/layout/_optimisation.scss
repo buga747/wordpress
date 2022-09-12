@@ -1,0 +1,45 @@
+.optimisation {
+    padding-top: 108px;
+    padding-bottom: 74px;
+    background-image: url(../images/bg/woman_bg.png);
+    background-repeat: no-repeat;
+
+    background-position: 150px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.otimisation-text-block {
+    width: 750px;
+    margin-left: auto;
+}
+
+.optimisation__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+
+    color: $secondary-accent-color;
+}
+
+.optimisation-text {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.59;
+
+
+
+    color: $primary-text-color;
+    margin-bottom: 17px;
+
+    &--strong {
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+}
